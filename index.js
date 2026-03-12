@@ -22,7 +22,7 @@ app.get('/', function(req, res, next) {
 app.post('/request', urlencodedParser, function(req, res) {
   var input = req.body.input;
   if(isValidZipcode(input)) {
-    var url_request = baseUrl + "weather?zip=" + input + "&APPID=" + apiKey + "&units=imperial";
+    var url_request = baseUrl + "weather?zip=" + input + "&appid=" + apiKey + "&units=imperial";
   } else if (input.indexOf(',' > -1)){
     input = input.replace(/ /g, '');
     var array = input.split(',');

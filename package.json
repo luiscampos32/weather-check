@@ -14,10 +14,18 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.14.1"
+    "express": "^4.21.2"
   },
   "keywords": [
     "node",
     "express"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscampos32/weather-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luiscampos32/weather-check/issues"
+  },
+  "homepage": "https://github.com/luiscampos32/weather-check#readme"
 }
